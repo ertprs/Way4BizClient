@@ -2,7 +2,7 @@ import React from "react";
 
 const MainIcons = ({ icon }) => {
   const Icon = () => {
-    return {};
+    return null;
   };
   return <Icon />;
 };
