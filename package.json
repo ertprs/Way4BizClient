@@ -44,11 +44,13 @@
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
     "slick-carousel": "^1.8.1",
-    "uuid": "^8.2.0",
+    "source-map-explorer": "^2.5.0",
+    "uuid": "^8.3.1",
     "validator": "^13.1.1",
     "waypoints": "^4.0.1"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "env-cmd -f ./config/keys.env react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
