@@ -1,19 +1,3 @@
-import { Route, Switch, Redirect } from "react-router-dom";
-import { connect } from "react-redux";
-import "./App.css";
-import {
-  fetchUser,
-  fetchProducts,
-  fetchCategories,
-  saveCartItems,
-  saveWishlistItems,
-  fetchCartItems,
-  fetchWishlistProducts,
-  fetchAllCategories,
-  fetchHeroImages
-} from "./redux/actions";
-import "react-responsive-tabs/styles.css";
-import MoveToTop from "./MoveToTop";
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Home from "./components/Pages/Home";
